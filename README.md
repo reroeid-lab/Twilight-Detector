@@ -10,8 +10,8 @@ An automatic ambient-light-sensing nightlight created for **Hack Club's Half-Lif
 This project uses a photoresistor (LDR) and a microcontroller to automatically turn an LED on when the room darkens and turn it off when daylight or ambient room light is detected.
 
 * **Core Function:** Automatic light threshold detection using an Analog-to-Digital Converter (ADC).
-* **Microcontroller:** Seeed Studio XIAO RP2040 (or any RP2040 / ESP32 / Arduino compatible board).
-* **Language:** MicroPython.
+* **Microcontroller:** Seeed Studio XIAO RP2040 (or Arduino Uno / Nano included in starter kit).
+* **Language:** MicroPython / Arduino C++.
 
 ---
 
@@ -28,11 +28,11 @@ This project uses a photoresistor (LDR) and a microcontroller to automatically t
 
 ### Wiring Connections:
 * **LDR Divider:**
-  * Connect one leg of the **LDR** to `3V3`.
+  * Connect one leg of the **LDR** to `3V3` (or `5V`).
   * Connect the junction between the **LDR** and the **10kΩ resistor** to pin **`A0`**.
   * Connect the remaining leg of the **10kΩ resistor** to **`GND`**.
 * **LED Control:**
-  * Connect pin **`D1`** to a **220Ω resistor**.
+  * Connect pin **`D1`** (or Pin 13 on Arduino) to a **220Ω resistor**.
   * Connect the resistor to the positive leg (Anode) of the **LED**.
   * Connect the negative leg (Cathode) of the **LED** to **`GND`**.
 
@@ -42,15 +42,16 @@ This project uses a photoresistor (LDR) and a microcontroller to automatically t
 
 | Component | Description | Qty | Approx. Price |
 | :--- | :--- | :--- | :--- |
-| **Microcontroller** | Seeed Studio XIAO RP2040 | 1 | ~$5.00 |
-| **Light Sensor** | LDR Photoresistor (5528) | 1 | ~$0.20 |
-| **Output LED** | 5mm Red or Warm White LED | 1 | ~$0.15 |
-| **Resistor R1** | 10kΩ 1/4W | 1 | ~$0.05 |
-| **Resistor R2** | 220Ω 1/4W | 1 | ~$0.05 |
-| **Breadboard** | Half-size Solderless Breadboard | 1 | ~$1.50 |
-| **Jumper Wires** | Male-to-Male Jumper Wires | 4 | ~$0.50 |
-| **Power Cable** | USB-C Cable | 1 | ~$1.00 |
-| **Total Estimated Budget** | | | **~$8.45** |
+| **Starter Kit** | Basic Arduino Starter Kit (Includes breadboard, jumper wires, LEDs, resistors, LDR) | 1 | ~$25.00 |
+| **Microcontroller** | Seeed Studio XIAO RP2040 (or kit-included Arduino Uno/Nano) | 1 | ~$5.00 |
+| **Light Sensor** | LDR Photoresistor (5528) | 1 | Included in kit |
+| **Output LED** | 5mm Red or Warm White LED | 1 | Included in kit |
+| **Resistor R1** | 10kΩ 1/4W | 1 | Included in kit |
+| **Resistor R2** | 220Ω 1/4W | 1 | Included in kit |
+| **Breadboard** | Solderless Breadboard | 1 | Included in kit |
+| **Jumper Wires** | Male-to-Male Jumper Wires | 4 | Included in kit |
+| **Power Cable** | USB Cable | 1 | Included in kit |
+| **Total Estimated Budget** | | | **~$30.00** |
 
 ---
 
