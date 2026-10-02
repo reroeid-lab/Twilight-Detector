@@ -35,6 +35,7 @@ This project uses a photoresistor (LDR) and a microcontroller to automatically t
   * Connect pin **`D1`** (or Pin 13 on Arduino) to a **220Ω resistor**.
   * Connect the resistor to the positive leg (Anode) of the **LED**.
   * Connect the negative leg (Cathode) of the **LED** to **`GND`**.
+<img width="1046" height="573" alt="Screenshot 2026-10-02 170124" src="https://github.com/user-attachments/assets/0ed8766e-b562-4b88-a67b-2dc9cb910974" />
 
 ---
 
